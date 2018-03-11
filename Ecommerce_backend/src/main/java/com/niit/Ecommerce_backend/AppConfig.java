@@ -39,7 +39,7 @@ public class AppConfig
 
 		DriverManagerDataSource ds = new DriverManagerDataSource();
 	        ds.setDriverClassName("org.h2.Driver");
-		ds.setUrl("jdbc:h2:tcp://localhost/~/s180234");
+		ds.setUrl("jdbc:h2:tcp://localhost/~/Ekartapp");
 		ds.setUsername("sa");
 		ds.setPassword(""); 
 		return ds;

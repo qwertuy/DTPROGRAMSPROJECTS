@@ -33,6 +33,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\DTPROGRAMSFINAL\Ecommerce"/>
+			<item value="D:\DTPROGRAMSFINAL\Ecommerce_backend"/>
 			<item value="D:\DTPROGRAMS"/>
 		</list>
 		<list key="projectNameTemplate">

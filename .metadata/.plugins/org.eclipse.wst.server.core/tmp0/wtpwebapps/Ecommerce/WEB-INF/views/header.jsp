@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>BOHEMIAN</title>
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -14,7 +14,7 @@
 <style type="text/css">
   .backgroundclr
   { 
-    background-color: #59503e;
+    background-color: #59508e;
   }
 </style>
 
@@ -59,17 +59,17 @@ $(document).ready(function(){
 			</button>
 							
 			<a class="navbar-brand" href="./">				
-			<%-- 	<img src='<c:url value="./resources/images/weblog1.jpg" />' class="img-circle" width="50px" height="25px" /> --%>
+			<%-- 	<img src='<c:url value="./resources/images/boho.jpg" />' class="img-circle" width="50px" height="25px" /> --%>
 			<%-- <img src="${pageContext.request.contextPath}/resources/images/weblog1.jpg" class="img-circle" width="50px" height="25px"/> --%>
 			</a>
 		</div>		
 		
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav">
-			  <li ><a href="" style="font-size:20px;color:white;font-family:Times New Roman">Home</a></li>
-				<li><a href="" style="font-size:20px;color:white;font-family:Times New Roman">AboutUs</a></li>
-				<li class="dropdown" style="font-family:Times New Roman"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-					aria-expanded="false"  style="font-size:20px;color:white">Categorys <span class="caret"></span></a>
+			  <li ><a href="" style="font-size:20px;color:white;font-family:Aharoni">Home</a></li>
+				<li><a href="" style="font-size:20px;color:white;font-family:Aharoni">AboutUs</a></li>
+				<li class="dropdown" style="font-family:Aharoni"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+					aria-expanded="Aharoni"  style="font-size:20px;color:white">Category <span class="caret"></span></a>
 					<ul class="dropdown-menu">
 									
 						<c:forEach items="${clist}" var="p">
@@ -81,10 +81,10 @@ $(document).ready(function(){
 					</ul>
 					
 				</li>
-					 <li style="font-family:Times New Roman"><a href="<c:url value="/admin/add"/>" role="button" aria-haspopup="true"
+					 <li style="font-family:Aharoni"><a href="<c:url value="/admin/add"/>" role="button" aria-haspopup="true"
 					aria-expanded="false" style="font-size:20px;color:white">ManageProducts</a>
 					
-					<li style="font-family:Times New Roman"><a href="<c:url value="/admin/add1"/>" role="button" aria-haspopup="true"
+					<li style="font-family:Aharoni"><a href="<c:url value="/admin/add1"/>" role="button" aria-haspopup="true"
 					aria-expanded="false" style="font-size:20px;color:white">ManageCategory</a>
 								
 					</li>
@@ -104,9 +104,9 @@ $(document).ready(function(){
 					<li>
 					<%-- <a href=' <c:url value="/login" />'>Login</a> --%>
 					</li>
-					<li ><a href="<c:url value="admin/add"/>" role="button" aria-haspopup="true"
-					aria-expanded="false" class="fa fa-user" style="font-size:20px;color:white">Login</a> </li>
-				<li style="font-family:Times New Roman"><a href=' <c:url value="/reg" />'class="fa fa-users" style="font-size:20px;color:white">Signup</a></li>
+					<li ><a href="<c:url value="admin/add"/>" role="button" aria-haspopup="Aharoni"
+					aria-expanded="false" style="font-size:20px;color:white">Login</a> </li>
+				<li style="font-family:Aharoni"><a href=' <c:url value="/reg" />'class="Aharoni" style="font-size:20px;color:white">Signup</a></li>
 				
 				</c:if>
 				<c:if test="${pageContext.request.userPrincipal.name  != null}">

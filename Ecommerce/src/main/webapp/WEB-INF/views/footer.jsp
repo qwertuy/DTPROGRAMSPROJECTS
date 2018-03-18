@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>BOHEMIAN</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -31,7 +31,7 @@ ul.social-network li {
 
 /* footer social icons */
 .social-network a.icoRss:hover {
-	background-color: #F56505;
+	background-color: #F56504;
 }
 .social-network a.icoFacebook:hover {
 	background-color:#3B5998;
@@ -98,7 +98,7 @@ a.socialIcon:hover, .socialHoverClass {
   </style>
 </head>
 <body>
-<center><h3>@CopyRight2017</h3>
+<center><h3>Created by Aishwarya</h3>
 <!--Pulling Awesome Font -->
 
 

@@ -8,7 +8,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Product Page</title>
 <!-- To Access the Bootstrap link -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -25,10 +25,11 @@
 
 <!-- Form Name -->
 <legend>EDIT PRODUCTS</legend>
+<a href="" style="font-size:20px;color:white;font-family:Aharoni">
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="product_id">PRODUCT ID</label>  
+  <label class="col-md-4 control-label" for="product_id"style="font-family:Aharoni">PRODUCT ID</label>  
   <div class="col-md-4">
   <input id="product_id" value="${product.productid}"  name="id" placeholder="PRODUCT ID" class="form-control input-md" required="" type="text">
     

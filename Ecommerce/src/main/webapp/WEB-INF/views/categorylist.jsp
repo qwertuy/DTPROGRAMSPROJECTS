@@ -18,7 +18,7 @@
 	<jsp:include page="header.jsp"/>
 <br/>
 <br>
-<h3>CategotyList</h3>
+<h3>CategoryList</h3>
 <div class="container">
 <div class="row">
 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">

@@ -20,21 +20,22 @@
 
 <!-- AddProduct coding  started -->
 <jsp:include page="header.jsp"></jsp:include><br><br>
-<a href="categorylist" style="font-family: fantasy;">CATEGORYLIST</a>&nbsp;&nbsp;&nbsp;&nbsp;
-<!-- <a href="supplierlist" style="font-family: fantasy;">SUPPLIERLIST</a>&nbsp;&nbsp;&nbsp;&nbsp; -->
-<a href="productlistview" style="font-family: fantasy;">PRODUCTLIST</a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="viewshipdetails" style="font-family: fantasy;">VIEWALLSHIPDETAILS</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="categorylist" style="font-family: Arial Black;">CATEGORY LIST</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<!-- <a href="supplierlist" style="font-family: Arial Black;">SUPPLIERLIST</a>&nbsp;&nbsp;&nbsp;&nbsp; -->
+<a href="productlistview" style="font-family: Arial Black;">PRODUCT LIST</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="viewshipdetails" style="font-family: Arial Black;">VIEW SHIPPING DETAILS</a>&nbsp;&nbsp;&nbsp;&nbsp;
 
 <hr>
 <form class="form-horizontal" action="addProduct" method="post" enctype="multipart/form-data">
 <fieldset>
 
 <!-- Form Name -->
-<legend>ADD PRODUCTS</legend>
+<legend style="colour:black;font-family:Aharoni">Enter Product Details</legend>
+
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="product_id">PRODUCT ID</label>  
+  <label class="col-md-4 control-label" for="product_id"style="colour:black;font-family: Aharoni">PRODUCT ID</label>  
   <div class="col-md-4">
   <input id="product_id"  name="id" placeholder="PRODUCT ID" class="form-control input-md" required="" type="text">
     
@@ -43,7 +44,7 @@
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="product_name">PRODUCT NAME</label>  
+  <label class="col-md-4 control-label" for="product_name"style="colour:black;font-family: Aharoni">PRODUCT NAME</label>  
   <div class="col-md-4">
   <input id="product_name" name="pname" placeholder="PRODUCT NAME" class="form-control input-md" required="" type="text">
     
@@ -53,7 +54,7 @@
 
 <!-- Select Basic -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="product_categorie">PRODUCT CATEGORY</label>
+  <label class="col-md-4 control-label" for="product_categorie"style="colour:black;font-family: Aharoni">PRODUCT CATEGORY</label>
   <div class="col-md-4">
     <select id="product_categorie" name="cid" class="form-control">
     
@@ -67,7 +68,7 @@
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="product_prices">PRODUCT PRICES</label>  
+  <label class="col-md-4 control-label" for="product_prices"style="colour:black;font-family: Aharoni">PRODUCT PRICES</label>  
   <div class="col-md-4">
   <input id="available_quantity" name="price" placeholder="PRODUCTPRICES" class="form-control input-md" required="" type="text">
     
@@ -76,7 +77,7 @@
 
  <!-- File Button --> 
 <div class="form-group">
-  <label class="col-md-4 control-label" for="filebutton">Select Your Product Image</label>
+  <label class="col-md-4 control-label" for="filebutton"style="colour:black;font-family: Aharoni">Select the Product Image</label>
   <div class="col-md-4">
     <input id="filebutton" name="file" class="input-file" type="file">
   </div>
@@ -86,7 +87,7 @@
 <div class="form-group">
   <label class="col-md-4 control-label" for="singlebutton"></label>
   <div class="col-md-4">
-    <button id="singlebutton" name="singlebutton" class="btn btn-primary">AddProduct</button>
+    <button id="singlebutton" name="singlebutton" class="btn btn-primary"style="colour:black;font-family:Bradley Hand ITC">Add Product</button>
   </div>
   </div>
 

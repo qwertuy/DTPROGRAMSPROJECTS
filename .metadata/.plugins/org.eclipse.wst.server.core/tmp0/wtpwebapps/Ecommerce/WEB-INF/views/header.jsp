@@ -6,6 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>BOHEMIAN</title>
+
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -104,7 +105,7 @@ $(document).ready(function(){
 					<li>
 					<%-- <a href=' <c:url value="/login" />'>Login</a> --%>
 					</li>
-					<li ><a href="<c:url value="admin/add"/>" role="button" aria-haspopup="Aharoni"
+					<li style="font-family:Aharoni" ><a href="<c:url value="admin/add"/>" role="button" aria-haspopup="Aharoni"
 					aria-expanded="false" style="font-size:20px;color:white">Login</a> </li>
 				<li style="font-family:Aharoni"><a href=' <c:url value="/reg" />'class="Aharoni" style="font-size:20px;color:white">Signup</a></li>
 				

@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>LOGINPAGE</title>
+<title>Login Page</title>
 <!-- To Access the Bootstrap link -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -53,7 +53,7 @@
     <!-- Loginpage coding finshed here -->
     <center>
     <div class="container" style="padding:50px 0">
-	<div class="row"><h4 style="font-family: Engravers MT;font-family: monospace;color: gray;"><img src="${pageContext.request.contextPath}/resources/images/loginlogo.png"/></h4></div>
+	<div class="row"><h4 style="font-family: Engravers MT;font-family: monospace;color: gray;"><img src="${pageContext.request.contextPath}/resources/images/log.jpg"/></h4></div>
 	<!-- Main Form -->
 	<div class="l">
 	<c:url var="loginUrl" value="/j_spring_security_check" />

@@ -24,7 +24,7 @@
 <jsp:include page="header.jsp"></jsp:include>
 <!-- Registration form here -->
 <div class="container">
-    <center><h3 class="well" style="font-family: Copperplate Gothic;font-style: italic;color:#0000cc">COMPLETE REGISTER PROCESS</h3></center>
+    <center><h3 class="well" style="font-family: Calibri;font-style: bold;color:#000cc">Fill all the fields</h3></center>
 	<div class="col-lg-12 well">
 	<div class="row">
 			<form  action="registerpage" method="post">

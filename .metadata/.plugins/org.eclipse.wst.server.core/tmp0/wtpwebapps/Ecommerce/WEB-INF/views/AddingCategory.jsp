@@ -19,11 +19,11 @@
 <fieldset>
 
 <!-- Form Name -->
-<legend>ADD CATEGORY</legend>
+<legend>Add Category</legend>
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="product_id">CATEGORY ID</label>  
+  <label class="col-md-4 control-label" for="product_id"style="font-family:Aharoni">CATEGORY ID</label>  
   <div class="col-md-4">
   <input id="category_id"  name="c_id" placeholder="CATEGORY ID" class="form-control input-md" required="" type="text">
     
@@ -32,7 +32,7 @@
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="product_name">CATEGORY NAME</label>  
+  <label class="col-md-4 control-label" for="product_name"style="font-family:Aharoni">CATEGORY NAME</label>  
   <div class="col-md-4">
   <input id="category_name" name="c_name" placeholder="CATEGORY NAME" class="form-control input-md" required="" type="text">
     
@@ -47,7 +47,7 @@
 <div class="form-group">
   <label class="col-md-4 control-label" for="singlebutton"></label>
   <div class="col-md-4">
-    <button id="singlebutton" name="singlebutton" class="btn btn-primary">AddCategory</button>
+    <button id="singlebutton" name="singlebutton" class="btn btn-primary"style="font-family:Bradley Hand ITC">Add Category</button>
   </div>
   </div>
 

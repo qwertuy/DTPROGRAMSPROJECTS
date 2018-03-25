@@ -168,14 +168,13 @@ $(document).ready(function(){
 </script>
 
  <!-- Footer start -->  
-<center><h3>@CopyRight2017</h3>
+<center><h3>Created by Aishwarya</h3>
 <!--Pulling Awesome Font -->
 
 
 
     			<div class="col-md-12">
                     <ul class="social-network social-circle">
-                        <li><a href="#" class="icoRss" title="Rss" style="background-color: #D3D3D4"><i class="fa fa-rss"></i></a></li>
                         <li><a href="#" class="icoFacebook" title="Facebook" style="background-color: #D3D3D4"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="#" class="icoTwitter" title="Twitter" style="background-color: #D3D3D4"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="#" class="icoGoogle" title="Google +" style="background-color: #D3D3D4"><i class="fa fa-google-plus"></i></a></li>
